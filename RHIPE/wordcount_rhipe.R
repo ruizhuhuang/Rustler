@@ -1,10 +1,4 @@
 #!/usr/bin/env Rscript
-################################################################################
-#   Simple Word Counter for Rhipe 0.73
-#
-#   Glenn K. Lockwood, San Diego Supercomputer Center               August 2013
-################################################################################
-
 library(Rhipe)
 rhinit()
 rhoptions(runner = 'R CMD /home/apps/big-data-r/Rhipe/bin/RhipeMapReduce --slave --silent --vanilla')
